@@ -48,6 +48,7 @@ export default {
       this.numTotal++
     }
   },
+  
   mounted: function(){
     fetch('https://opentdb.com/api.php?amount=10&type=multiple',{
       method: 'get'
